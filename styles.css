@@ -1,2 +1,12 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;                 /* Enable flexbox layout */
+  justify-content: center;       /* Center the items horizontally */
+  align-items: center;           /* Center items vertically in the container */
+  flex-wrap: wrap;               /* Enable wrapping to the next row if items overflow */
+}
+
+.item {
+  flex-shrink: 1;                /* Allows items to shrink as much as necessary */
+}
